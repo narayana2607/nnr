@@ -1,0 +1,106 @@
+body, html {
+  margin: 0;
+  background: #000;
+  font: bold 15px/1.4 'Open Sans', Arial, sans-serif;
+
+}
+
+ul { 
+
+  margin: 0;
+  padding: 0; 
+  list-style: none; 
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  background: rgba(0, 0, 0, 0); /* Transparent background */
+  transition: background 0.3s ease; /* Smooth transition for background change */
+}
+
+li { 
+  display: inline-block; 
+  padding: 0px 0;
+  color: #fff;
+  
+}
+
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 27px 30px;
+  position: relative;
+}
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+@media screen and (max-height: 300px) {
+  ul {
+    margin-top: 40px;
+  }
+}
+
+
+
+.name:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0%;
+  position: absolute;
+  background: red;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+
+}
+
+.name:hover:after { 
+  width: 100%; 
+  right: 0%; 
+}
+p {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+  margin-right: 0%;
+}
+
+.name{
+  background-color: #4bc40f; /* Choose your desired background color */
+
+  margin-top: 1%;
+  margin-right: 9%;
+  padding: 15px 20px;
+
+  color: #fff;
+  position: absolute;
+  font: bold 25px/1.4 'Open Sans', Arial, sans-serif;
+
+
+}
