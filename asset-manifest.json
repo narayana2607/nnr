@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nnr/static/css/main.e615fd2d.css",
-    "main.js": "/nnr/static/js/main.35bad1c1.js",
+    "main.js": "/nnr/static/js/main.99a5bcaa.js",
     "reactPlayerYouTube.js": "/nnr/static/js/reactPlayerYouTube.d7171431.chunk.js",
     "reactPlayerSoundCloud.js": "/nnr/static/js/reactPlayerSoundCloud.4a70a266.chunk.js",
     "reactPlayerVimeo.js": "/nnr/static/js/reactPlayerVimeo.324850e9.chunk.js",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.e615fd2d.css",
-    "static/js/main.35bad1c1.js"
+    "static/js/main.99a5bcaa.js"
   ]
 }
